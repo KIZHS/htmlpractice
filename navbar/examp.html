@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body {
+            padding: 20px 20px 20px 20px;
+            margin: 20px 20px 20px 20px;
+        }
+
+        .part2 {
+            display: inline;
+            float: left;
+            padding: 20px 20px 20px 20px;
+        }
+        .align {
+            padding-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Edit Menu Item</h1>
+        <div class="part2">
+            <form action="#">
+                <label>UserName :</label>
+                <input type="text" /> <br />
+                <br />
+                <label>Password : </label>
+                <input type="password" /> <br />
+                <br />
+                <input type="checkBox" />
+                <label for="checkbox"> Free Delivery</label> <br />
+                <br />
+                <button id="btn">save</button>
+            </form>
+        </div>
+        <div class="align">
+            <div class="part2">
+                <label>Active</label> <br />
+                <input type="radio" name="yes" id="" />
+                <label for="radio">Yes</label>
+                <input type="radio" name="no" id="" />
+                <label for="radio">No</label>
+            </div>
+            <div class="part2">
+                <label for="date">Date of Launch</label> <br />
+                <input type="date" />
+            </div>
+            <div class="part2">
+                <label for="food">Category</label>
+                <select name="food">
+                    <option value="starters">Starters</option>
+                    <option value="Biriyani">Biriyani</option>
+                    <option value="panner">Panner Masala</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

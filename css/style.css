@@ -1,0 +1,26 @@
+
+h1.sheet1{
+    color: rgb(191, 88, 88);
+    font-size: 20px;
+  }
+.sheet2{
+    color: rgb(29, 95, 133);
+    font-size: 20px;
+}
+div{
+    background-color: rgb(50, 158, 253);
+    color: aliceblue;
+}
+#div1{
+     background-color: rgb(46, 100, 100);
+}
+p.sheet1{
+    color: blueviolet;
+    font-size:larger ;
+}
+div,h1{
+    text-align: center;
+}
+body{
+    background:rgb(127, 236, 255) url(images/1635846773SIIET.webp) no-repeat;
+}

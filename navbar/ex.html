@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .main {
+            border: 1px solid black;
+            width: 60%;
+            margin: auto;
+            height: 400px;
+        }
+
+        .sub {
+            border: 1px solid black;
+            height: 80%;
+            float: left;
+            width: 23%;
+            margin: 30px 5px 5px 8px;
+        }
+
+        
+
+        input {
+            display: inline;
+            float: left;
+        }
+        #edit-menu-item-box {
+    text-align: center;
+    margin-top: 80px;
+}
+
+ 
+
+h3 {
+    font-size: 2em;
+}
+
+ 
+
+#edit-menu-form {
+    margin-left: 25%;
+    margin-top: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+    text-align: left;
+}
+
+ 
+
+#edit-menu-second-row {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+ 
+
+.edit-menu-item {
+    display: flex;
+    flex-direction: column;
+}
+
+ 
+
+label {
+    font-weight: bold;
+    color: rgb(63, 63, 63);
+}
+
+ 
+
+button {
+    background-color: rgb(48, 84, 150);
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+    </style>
+</head>
+
+<body>
+    <div class='main'>
+        <center>
+            <h1>Edit Menu </h1>
+        </center>
+        <div class='sub'>
+           <div class="register">
+            <label>Name</label><br>
+            <input type="text">
+            <br><br>
+            <label>Price</label><br>
+            <input type="text"> <br> <br>
+            <input type="checkbox">
+            <label> Free Delivery</label> <br> <br>
+            <button id="btn">Save</button>
+           </div>
+        </div>
+        <div class='sub'>
+            <div class='Active'>
+                <form>
+                    <label for="Active">Active</label> <br>
+                    <input type="radio" name="Active" value="No">
+                    <label > yes</label> 
+                    <input type="radio" name="Active" value="No"> 
+                    <label >No</label>
+
+                </form>
+            </div>
+        </div>
+        <div class='sub'>
+            <div class="active">
+
+            </div>
+        </div>
+        <div class='sub'>
+            <div class="active"></div>
+        </div>
+    </div>
+</body>
+
+</html>
